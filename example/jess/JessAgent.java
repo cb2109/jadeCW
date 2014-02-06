@@ -22,7 +22,7 @@ Boston, MA  02111-1307, USA.
 *****************************************************************/
 
 
-package examples.jess;
+package jess;
 
 import jade.core.Agent;
 

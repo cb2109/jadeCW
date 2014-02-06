@@ -52,23 +52,16 @@ Boston, MA  02111-1307, USA.
 //2) The second case is a little more tricky. Get the first parameter of the ValueVector, extract the function call
 //(assert). Get the first parameter again and extract the ACLMessage. Jess variables must be resolved with calls to
 //Value.stringValue(context), Value.listValue(context), etc.
-package examples.jess;
+package jess;
 
-import jade.core.*;
-
-import jade.core.behaviours.*;
-
+import jade.core.AID;
+import jade.core.Agent;
+import jade.core.behaviours.CyclicBehaviour;
 import jade.lang.acl.ACLMessage;
 
-import jess.*;
-
-import java.io.*;
-
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Hashtable;
-import java.util.Iterator;
-import java.util.List;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.*;
 
 
 /**

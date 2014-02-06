@@ -38,7 +38,6 @@ public class JadeJessBehaviour extends CyclicBehaviour // tells JESS about incom
   public JadeJessBehaviour(JadeJessAgent jadeJessAgent) throws JessException
   	{
   	this (jadeJessAgent,jadeJessAgent.getRete()); // if no JESS engine is provided, take the default engine as stored by the agent
-  	}
   private ACLMessage receive ()
     {
     ACLMessage message = null;
