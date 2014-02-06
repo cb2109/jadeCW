@@ -17,7 +17,14 @@ public class HospitalAgent extends Agent {
         Object[] input = getArguments();
 
         if(input.length <= 0) {
-            throw new ArrayIndexOutOfBoundsException("The Input array did not contain ");
+            throw new ArrayIndexOutOfBoundsException("The Input array did not contain any elements.");
+        }
+
+        try {
+            Integer i = (Integer) input[0];
+        } catch(ClassCastException e) {
+            throw new ClassCastException("The input array did not contain the total number of " +
+                    "available appointments as the first argument.");
         }
 
     }
