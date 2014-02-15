@@ -1,4 +1,4 @@
-package jadeCW.hospitalagent;
+package jadeCW.patient;
 
 import jade.core.Agent;
 import jade.domain.DFService;
