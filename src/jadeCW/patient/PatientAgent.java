@@ -44,6 +44,8 @@ public class PatientAgent extends Agent {
 
         readPreferences((String) input[0]);
 
+        addBehaviour(new RequestAppointment(this));
+
         register();
     }
 

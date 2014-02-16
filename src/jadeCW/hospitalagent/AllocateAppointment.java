@@ -1,12 +1,12 @@
 package jadeCW.hospitalagent;
 
-import jade.core.behaviours.Behaviour;
+import jade.core.behaviours.CyclicBehaviour;
 
 /**
  * Author: Christopher Bates
  * Date: 16/02/14
  */
-public class AllocateAppointment extends Behaviour {
+public class AllocateAppointment extends CyclicBehaviour {
 
 
 
@@ -15,8 +15,4 @@ public class AllocateAppointment extends Behaviour {
         //To change body of implemented methods use File | Settings | File Templates.
     }
 
-    @Override
-    public boolean done() {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
-    }
 }

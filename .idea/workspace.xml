@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4dfa0cd-c3e3-4a90-aed1-b5bd278e0a3f" name="Default" comment="Completed step 2&#10;&#10;Added behaviour to PatientAgent to read input and try to subscribe to the hospital agent">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jadeCW/appointment/Appointment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jadeCW/appointment/AppointmentSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jadeCW/hospitalagent/AllocateAppointment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jadeCW/patient/RequestAppointment.java" />
-      <change type="DELETED" beforePath="C:\Users\Chris\Desktop\jadeCW\.idea\libraries\lib.xml" afterPath="" />
+    <list default="true" id="c4dfa0cd-c3e3-4a90-aed1-b5bd278e0a3f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JADE.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec-474-1-0.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JadeCW.iml" afterPath="$PROJECT_DIR$/JadeCW.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jadeCW/hospitalagent/HospitalAgent.java" afterPath="$PROJECT_DIR$/src/jadeCW/hospitalagent/HospitalAgent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jadeCW/hospitalagent/AllocateAppointment.java" afterPath="$PROJECT_DIR$/src/jadeCW/hospitalagent/AllocateAppointment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jadeCW/patient/PatientAgent.java" afterPath="$PROJECT_DIR$/src/jadeCW/patient/PatientAgent.java" />
     </list>
     <ignored path="JadeCW.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c4dfa0cd-c3e3-4a90-aed1-b5bd278e0a3f" time="1391702199986" ignored="false" />
-    <file path="/JadeCW.iml" changelist="c4dfa0cd-c3e3-4a90-aed1-b5bd278e0a3f" time="1391701451890" ignored="false" />
-    <file path="/BasicJessBehaviour.java" changelist="c4dfa0cd-c3e3-4a90-aed1-b5bd278e0a3f" time="1391701184779" ignored="false" />
     <file path="/HospitalAgent.java" changelist="c4dfa0cd-c3e3-4a90-aed1-b5bd278e0a3f" time="1391702006960" ignored="false" />
+    <file path="/BasicJessBehaviour.java" changelist="c4dfa0cd-c3e3-4a90-aed1-b5bd278e0a3f" time="1391701184779" ignored="false" />
+    <file path="/JadeCW.iml" changelist="c4dfa0cd-c3e3-4a90-aed1-b5bd278e0a3f" time="1391701451890" ignored="false" />
+    <file path="/Dummy.txt" changelist="c4dfa0cd-c3e3-4a90-aed1-b5bd278e0a3f" time="1391702199986" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +28,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" />
     <breakpoint_any default_suspend_policy="SuspendAll">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -66,6 +60,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -79,10 +74,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RequestAppointment.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RequestAppointment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jadeCW/patient/RequestAppointment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="4" selection-start="553" selection-end="553" vertical-scroll-proportion="0.23705408">
+            <state line="30" column="146" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AllocateAppointment.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AllocateAppointment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/jadeCW/hospitalagent/AllocateAppointment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+            <state line="2" column="44" selection-start="75" selection-end="75" vertical-scroll-proportion="0.03912543">
               <folding />
             </state>
           </provider>
@@ -111,7 +106,7 @@
       <file leaf-file-name="PatientAgent.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jadeCW/patient/PatientAgent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="32" selection-start="4752" selection-end="4752" vertical-scroll-proportion="0.0">
+            <state line="118" column="4" selection-start="4046" selection-end="4046" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,8 +139,8 @@
         <option value="$PROJECT_DIR$/src/jadeCW/appointment/Appointment.java" />
         <option value="$PROJECT_DIR$/src/jadeCW/hospitalagent/HospitalAgent.java" />
         <option value="$PROJECT_DIR$/src/jadeCW/appointment/AppointmentSerializer.java" />
-        <option value="$PROJECT_DIR$/src/jadeCW/patient/PatientAgent.java" />
         <option value="$PROJECT_DIR$/src/jadeCW/patient/RequestAppointment.java" />
+        <option value="$PROJECT_DIR$/src/jadeCW/patient/PatientAgent.java" />
         <option value="$PROJECT_DIR$/src/jadeCW/hospitalagent/AllocateAppointment.java" />
       </list>
     </option>
@@ -198,19 +193,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -313,6 +295,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,12 +324,12 @@
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="Downloaded.Files.Path" value="C:\Users\Chris\Desktop\jadeCW\lib" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -357,24 +352,6 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -403,6 +380,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -509,12 +504,20 @@
       <created>1392482854298</created>
       <updated>1392482854298</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Completed step 3">
+      <created>1392563305760</created>
+      <updated>1392563305760</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Completed step 3">
+      <created>1392564022613</created>
+      <updated>1392564022613</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -524,16 +527,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34431818" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1598076" sideWeight="0.6556818" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1598076" sideWeight="0.6556818" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34431818" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -575,7 +578,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved PatientAgent to new package, created test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed step 3" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -594,6 +597,7 @@
     <MESSAGE value="Completed Step 1" />
     <MESSAGE value="Completed step 2&#10;&#10;Added behaviour to PatientAgent to read input and try to subscribe to the hospital agent" />
     <MESSAGE value="Moved PatientAgent to new package, created test" />
+    <MESSAGE value="Completed step 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -628,85 +632,41 @@
         <state line="11" column="28" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib2/jade.jar!/jade/domain/introspection/ACLMessage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib2/JADE-src-4.3.1.zip!/jade/src/jade/content/Concept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="61" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.1022864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib2/JADE-src-4.3.1.zip!/jade/src/jade/domain/introspection/ACLMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="35" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib2/JADE-src-4.3.1.zip!/jade/src/jade/core/behaviours/Behaviour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="20" selection-start="5017" selection-end="5017" vertical-scroll-proportion="0.33251834">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jadeCW/appointment/Appointment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="185" selection-end="185" vertical-scroll-proportion="0.18411553">
-          <folding />
-        </state>
+        <state line="9" column="20" selection-start="185" selection-end="185" vertical-scroll-proportion="0.18411553" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jadeCW/appointment/AppointmentSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="34" selection-start="873" selection-end="873" vertical-scroll-proportion="0.5819071">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#323#336#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="28" column="34" selection-start="873" selection-end="873" vertical-scroll-proportion="0.5819071" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jadeCW/hospitalagent/HospitalAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="66" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="41" column="66" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib2/JADE-src-4.3.1.zip!/jade/src/jade/lang/acl/ACLMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/jadeCW/patient/RequestAppointment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="469" column="16" selection-start="15310" selection-end="15310" vertical-scroll-proportion="0.33256617">
-          <folding />
+        <state line="30" column="146" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jadeCW/patient/PatientAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="32" selection-start="4752" selection-end="4752" vertical-scroll-proportion="0.0">
+        <state line="118" column="4" selection-start="4046" selection-end="4046" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jadeCW/hospitalagent/AllocateAppointment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+        <state line="2" column="44" selection-start="75" selection-end="75" vertical-scroll-proportion="0.03912543">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jadeCW/patient/RequestAppointment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="4" selection-start="553" selection-end="553" vertical-scroll-proportion="0.23705408">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
