@@ -7,6 +7,9 @@ import jade.domain.FIPAAgentManagement.DFAgentDescription;
 import jade.domain.FIPAAgentManagement.ServiceDescription;
 import jade.domain.FIPAException;
 import jade.domain.FIPANames;
+import jadeCW.appointment.Appointment;
+
+import java.util.ArrayList;
 
 /**
  * User: cb2109
@@ -16,10 +19,10 @@ import jade.domain.FIPANames;
 public class HospitalAgent extends Agent {
 
     private static final String SERVICE_NAME = "hospital_agent";
-    private static final String SERVICE_TYPE = "hospital_management";
+    private static final String SERVICE_TYPE = "allocate-appointment";
     private static final String SERVICE_ONTOLOGY = "hospital_ontology";
 
-    private Integer appointmentsAvailable;
+    private ArrayList<Appointment> appointmentsAvailable;
 
     @Override
     protected void setup() {
@@ -31,11 +34,16 @@ public class HospitalAgent extends Agent {
             throw new ArrayIndexOutOfBoundsException("The Input array did not contain any elements.");
         }
 
+        int noAvailable;
         try {
-            this.appointmentsAvailable = (Integer) input[0];
+            noAvailable = (Integer) input[0];
         } catch(ClassCastException e) {
             throw new ClassCastException("The input array did not contain the total number of " +
                     "available appointments as the first argument. \n Original message: " + e.getMessage());
+        }
+
+        for(int i = 0; i < noAvailable; i++) {
+            appointmentsAvailable.add(new Appointment(i));
         }
 
         System.out.println("Agent "+getLocalName()+" registering service \""+SERVICE_NAME+"\" of type " + SERVICE_TYPE +

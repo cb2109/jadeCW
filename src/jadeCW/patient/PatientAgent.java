@@ -1,5 +1,6 @@
 package jadeCW.patient;
 
+import jade.core.AID;
 import jade.core.Agent;
 import jade.domain.DFService;
 import jade.domain.FIPAAgentManagement.DFAgentDescription;
@@ -8,8 +9,10 @@ import jade.domain.FIPAAgentManagement.ServiceDescription;
 import jade.domain.FIPAException;
 import jade.domain.introspection.ACLMessage;
 import jade.proto.SubscriptionInitiator;
+import jadeCW.appointment.Appointment;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.StringTokenizer;
 
 /**
@@ -19,12 +22,15 @@ import java.util.StringTokenizer;
 public class PatientAgent extends Agent {
 
     private static final String APPT_SEPARATOR = "-";
-    private static final String SERVICE_TYPE = "hospital_management";
+    private static final String SERVICE_TYPE = "allocate-appointment";
 
     private ArrayList<Integer> appointmentPrefs;
     private Integer lowestAppointmentLevel;
 
+    private AID appointmentProvider;
     private ArrayList<ServiceDescription> descriptions;
+
+    private Appointment appointment;
 
     @Override
     protected void setup() {
@@ -60,7 +66,8 @@ public class PatientAgent extends Agent {
                     DFAgentDescription[] results = DFService.decodeNotification(inform.getAclRepresentation());
                     if (results.length > 0) {
                         for (DFAgentDescription dfd : results) {
-                            //AID provider = dfd.getName();
+
+                            appointmentProvider = dfd.getName();
 
                             jade.util.leap.Iterator it = dfd.getAllServices();
                             while (it.hasNext()) {
@@ -105,8 +112,37 @@ public class PatientAgent extends Agent {
                 }
             }
         }
+        lowestAppointmentLevel++; // adds one because there are ungraded appts
+    }
 
+    AID getAppointmentProvider() {
+        return appointmentProvider;
+    }
 
+    boolean hasAppointment() {
+        return appointment != null;
+    }
 
+    Appointment getBestAppointment(Collection<Appointment> appointments) {
+        Appointment bestSoFar = null;
+        int bestScore = lowestAppointmentLevel + 1;
+        for(Appointment a : appointments) {
+            Integer pref = appointmentPrefs.get(a.getSlot());
+            if(pref == null) {
+                pref = lowestAppointmentLevel;
+            }
+
+            if(pref < bestScore) {
+                bestSoFar = a;
+                bestScore = pref;
+            }
+        }
+
+        return bestSoFar;
+
+    }
+
+    public void setAppointment(Appointment appt) {
+        this.appointment = appt;
     }
 }

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib2" />
+      <root url="file://$PROJECT_DIR$/lib2" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/lib2" />
+      <root url="file://$PROJECT_DIR$/lib2" />
+      <root url="jar://$PROJECT_DIR$/lib2/JADE-src-4.3.1.zip!/jade/src" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/lib2" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib2" recursive="false" type="SOURCES" />
+  </library>
+</component>
